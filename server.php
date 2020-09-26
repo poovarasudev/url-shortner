@@ -1,13 +1,5 @@
 <?php
 
-/*
- * UrlHum (https://urlhum.com)
- *
- * @link      https://github.com/urlhum/UrlHum
- * @copyright Copyright (c) 2019 Christian la Forgia
- * @license   https://github.com/urlhum/UrlHum/blob/master/LICENSE.md (MIT License)
- */
-
 $uri = urldecode(
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
 );
